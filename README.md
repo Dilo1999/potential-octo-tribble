@@ -1,16 +1,52 @@
-# fake_api_app
+# 🛒 AliExpress-Style Flutter Shopping App
 
-A new Flutter project.
+A modern, responsive shopping app built with Flutter. Inspired by the AliExpress UI, this app showcases clean architecture, Provider-based state management, OOP concepts, and a sleek user interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🛍️ Product grid view with image, title, and price
+- 📄 Detailed view with description and actions
+- 🛒 "Add to Cart" and "Buy Now" buttons
+- 💡 State management using `Provider`
+- 🎯 Clean OOP-based structure for easy scalability
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Folder Structure
+
+lib/
+├── models/ # Data models (Item)
+├── providers/ # ItemProvider for state management
+├── screens/ # UI screens (ItemList, ItemDetail)
+├── services/ # API / JSON handling
+├── main.dart # App entry point
+assets/
+└── items.json # Dummy local data
+
+---
+
+## 🚀 Getting Started
+
+These instructions will get a copy of the project up and running on your local machine for development or testing purposes.
+
+---
+
+### 1. 🔁 Clone the Repository
+
+```bash
+git clone https://github.com/Dilo1999/aliexpress_style_flutter_app.git
+cd aliexpress_style_flutter_app
+
+📦 Install Dependencies
+      flutter pub get
+
+▶️ Run the App
+      flutter run
+
+
+
+
+
+
